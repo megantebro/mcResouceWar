@@ -1,0 +1,11 @@
+name: mcresoucewar
+version: '1.0-SNAPSHOT'
+main: lobby.mcresoucewar.Mcresoucewar
+api-version: '1.20'
+
+commands:
+  generate_map:
+    description: "マップを生成します、引数にはアウトポストの数を指定することができます、引数がない場合は標準で10,引数に0以下は指定できません"
+
+  game_start:
+    description: "ゲームをスタートするためのコマンド"
